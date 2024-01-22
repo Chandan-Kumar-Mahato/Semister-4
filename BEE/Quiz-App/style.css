@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+}
+img{
+    height:30px;
+}
+.main{
+    padding: 20px;
+    width: 800px;
+    height: 100%;
+    border: 2px solid orange;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.bgColor{
+    cursor: pointer;
+}
+.container{
+    display: block;
+    display: flex;
+    justify-content: space-around;
+}
+.text p{
+    font-size: 2rem;
+}
+.btn{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 4rem auto auto 4rem;
+}
+.btn button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(20,200,50,2);
+    cursor: pointer;
+    margin: 2px;
+    font-size: 1.2em;
+
+}
+.btn a{
+    color: black;
+    text-decoration: none;
+}
