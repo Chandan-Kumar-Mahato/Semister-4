@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    border: 1px solid red;
+    padding: 10px;
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.right{
+    width: 450px;
+}
+input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    outline: none;
+    border: 2px solid #94d2bd;
+    padding:10px;
+    border-radius: 10px;
+    width: 19rem;
+}
+.right button{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+div.left{
+    padding: 10px;
+}
+.left .task{
+    margin: 4px;
+    padding: 10px;
+    width: 500px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    list-style-type: none;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left .task button{
+    padding: 4px;
+    border-radius: 5px;
+    width: 3rem;
+    cursor: pointer;
+    margin: 5px;
+}
+.strikethrough{
+    text-decoration: line-through;
+}
